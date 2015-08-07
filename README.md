@@ -1,1 +1,0 @@
-# unsupervised-learning-stdp
