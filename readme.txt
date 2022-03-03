@@ -1,6 +1,6 @@
 This is the code for the paper "Unsupervised learning of digit recognition using spike-timing-dependent plasticity" available at http://journal.frontiersin.org/article/10.3389/fncom.2015.00099/abstract#
 
-To run the simulations you also need to download the MNIST dataset from http://yann.lecun.com/exdb/mnist/ and install the brian simulator (the easiest way is to run the following command from a shell "easy_install brian", otherwise see http://briansimulator.org/docs/installation.html). 
+To run the simulations you also need to download the MNIST dataset from http://yann.lecun.com/exdb/mnist/ and install the brian simulator (the easiest way is to run the following command from a shell "easy_install brian", otherwise see https://brian.readthedocs.io/en/stable/installation.html). 
 
 Testing with pretrained weights:
 First run the main file "Diehl&Cook_spiking_MNIST.py" (which by default uses the pretrained weights) and wait until the simulation finished (on recent hardware this should take about 30min). After the simulation finished, you can run "Diehl&Cook_MNIST_evaluation.py" to evaluate the result, which should show a performance of 91.56%.
