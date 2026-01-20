@@ -1,0 +1,19 @@
+# Core simulation
+brian2>=2.5.0
+
+# Numerical computing
+numpy>=1.20.0
+scipy>=1.7.0
+
+# Visualization
+matplotlib>=3.5.0
+plotly>=5.0.0
+
+# Machine learning utilities
+scikit-learn>=1.0.0
+
+# Graph visualization (optional, for network structure plots)
+networkx>=2.6.0
+
+# Progress bars
+tqdm>=4.60.0
